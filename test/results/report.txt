@@ -1,0 +1,39 @@
+> Warning: possible unsupported (undocumented in help) command line option: --no-colors
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\mocks\DAI.sol
+> Compiling .\contracts\wDAI.sol
+> Artifacts written to C:\Users\asus\AppData\Local\Temp\test--6944-UhfKLv75TBul
+> Compiled successfully using:
+   - solc: 0.6.2+commit.bacdbe57.Emscripten.clang
+
+
+> Duplicate contract names found for Address.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for Context.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for ERC20.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for IERC20.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+> Duplicate contract names found for SafeMath.
+> This can cause errors and unknown behavior. Please rename one of your contracts.
+
+
+  Contract: wDAI
+    wDAI
+      √ should mint wDAI (348ms)
+      After Liquidity Added:
+        √ should burn wDAI (298ms)
+        √ should allow Owner to Transfer Liquidity (256ms)
+        √ should revert if ownerTransfer not called by owner (95ms)
+        √ should revert if low liquidity present when withdrawing (208ms)
+
+
+  5 passing (5s)
+

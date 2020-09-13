@@ -1,0 +1,28 @@
+{
+  "name": "wdai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle --no-colors test 2>&1 | tee ./test/results/report.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodinMaster/wDAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodinMaster/wDAI/issues"
+  },
+  "homepage": "https://github.com/CodinMaster/wDAI#readme",
+  "dependencies": {
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "chai": "^4.2.0",
+    "ganache-time-traveler": "^1.0.14"
+  }
+}
